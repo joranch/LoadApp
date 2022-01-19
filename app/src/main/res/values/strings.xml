@@ -11,4 +11,7 @@
     <string name="button_name">Click me</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="glide_button_txt">Glide - Image loading library</string>
+    <string name="loadapp_button_text">LoadApp - Repository for this app\'s starter code</string>
+    <string name="retrofit_button_text">Retrofit - HTTP client library</string>
 </resources>

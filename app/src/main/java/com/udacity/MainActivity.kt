@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun download() {
-        val request =
+        /*val request =
             DownloadManager.Request(Uri.parse(URL))
                 .setTitle(getString(R.string.app_name))
                 .setDescription(getString(R.string.app_description))
@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity() {
 
         val downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
         downloadID =
-            downloadManager.enqueue(request)// enqueue puts the download request in the queue.
+            downloadManager.enqueue(request)// enqueue puts the download request in the queue.*/
+        custom_button.setCustomButtonState(ButtonState.Loading)
     }
 
     companion object {
