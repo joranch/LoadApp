@@ -14,4 +14,5 @@
     <string name="glide_button_txt">Glide - Image loading library</string>
     <string name="loadapp_button_text">LoadApp - Repository for this app\'s starter code</string>
     <string name="retrofit_button_text">Retrofit - HTTP client library</string>
+    <string name="toast_select_download_warning">Select a repository to download</string>
 </resources>
