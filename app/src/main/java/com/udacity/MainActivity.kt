@@ -158,7 +158,7 @@ class MainActivity : AppCompatActivity() {
             "https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter"
         private const val LOADAPP_FILEDESC = "LoapApp repository"
         private const val RETROFIT_URI = "https://github.com/square/retrofit"
-        private const val RETROFIT_FILEDESC = "Retrofir repository"
+        private const val RETROFIT_FILEDESC = "Retrofit repository"
         private const val CHANNEL_ID = "channelId"
         private const val CHANNEL_NAME = "LoadApp notifications"
         private const val CHANNEL_DESCTRIPTION = "Notifications when a download completed"
