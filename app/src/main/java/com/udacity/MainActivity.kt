@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Help source: https://medium.com/@aungkyawmyint_26195/downloading-file-properly-in-android-d8cc28d25aca
     private val receiver = object : BroadcastReceiver() {
         @SuppressLint("Range")
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -60,8 +61,6 @@ class MainActivity : AppCompatActivity() {
 
             if (id != downloadID)
                 return
-
-            custom_button.setCustomButtonState(ButtonState.Completed)
 
             val downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager
             val cursor = downloadManager.query(DownloadManager.Query())
@@ -91,6 +90,7 @@ class MainActivity : AppCompatActivity() {
                     selectedDownload
                 )
             }
+            custom_button.setCustomButtonState(ButtonState.Completed)
         }
     }
 
