@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
             if (id != downloadID)
                 return
-            
+
             custom_button.setCustomButtonState(ButtonState.Completed)
 
             val downloadManager = getSystemService(DOWNLOAD_SERVICE) as DownloadManager

@@ -41,6 +41,7 @@ class LoadingButton @JvmOverloads constructor(
                 progress = 0
             }
         }
+        invalidate()
     }
 
     private val paint = Paint().apply {
